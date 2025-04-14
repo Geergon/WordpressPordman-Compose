@@ -1,4 +1,4 @@
 .DS_Store
 /.srv/*
 .env
-!/srv/custom.ini
+!/.srv/custom.ini
