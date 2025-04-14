@@ -32,5 +32,5 @@ services:
     ports: 8180:80
     environment:
       MYSQL_USERNAME: wordpress
-      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASS}
       PMA_HOST: mysql
